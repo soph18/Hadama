@@ -38,13 +38,21 @@ Quando existem um ou mais projetos já criados, é possível alterar estes. Dent
 
 ### 4 TABELA DE DADOS DO SISTEMA:<br>
 
+![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/main/WhatsApp%20Image%202021-07-27%20at%203.31.53%20PM.jpeg)
+![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/main/WhatsApp%20Image%202021-07-27%20at%203.32.28%20PM.jpeg)
+![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/main/WhatsApp%20Image%202021-07-27%20at%203.33.59%20PM.jpeg)
+![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/main/WhatsApp%20Image%202021-07-27%20at%203.34.42%20PM.jpeg)
+![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/main/WhatsApp%20Image%202021-07-27%20at%203.35.42%20PM.jpeg)
+![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/main/WhatsApp%20Image%202021-07-27%20at%203.36.24%20PM.jpeg)
+![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/main/WhatsApp%20Image%202021-07-27%20at%203.36.42%20PM.jpeg)
+
  ### 5.PMC<br>
 
-IMAGEM DO PMC
+![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/main/WhatsApp%20Image%202021-07-27%20at%203.39.06%20PM.jpeg)
  
 ### 6.MODELO CONCEITUAL<br>
  
-IAMGEM MODELO CONCEITUAL
+![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/main/WhatsApp%20Image%202021-07-27%20at%203.40.57%20PM.jpeg)
     
 #### 6.1 Descrição dos dados <br>
 
@@ -88,7 +96,7 @@ imagem_est: campo que armazena uma imagem da estrutura química.<br>
    
 ### 7	MODELO LÓGICO <br>
 
-IMAGEM MODELO LÓGICO
+![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/main/WhatsApp%20Image%202021-07-27%20at%203.41.57%20PM.jpeg)
 
 ### 8	MODELO FÍSICO<br>
 drop database if exists Plantoterapia;
@@ -284,8 +292,6 @@ química do manjericão','TPPROJ4'),
 química da ortelã','TPPROJ4'),
 ('E1232','Imagem da estrutura 
 química do cravo','TPPROJ4');
-
-IMAGEM MODELO FÍSICO
         
        
 ### 9	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
