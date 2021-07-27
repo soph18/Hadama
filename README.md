@@ -18,6 +18,17 @@ Quando existem um ou mais projetos já criados, é possível alterar estes. Dent
 ### 3.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 
 ![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/3f6c0462f643996136c8b5bca81f4fc9accdff07/Conhe%C3%A7a%20o%20Projeto.png)
+![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/soph18-patch-1/Entrar%26Registrar.png)
+![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/soph18-patch-1/Escolha%20Projeto.png)
+![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/soph18-patch-1/Estrutura%20Qu%C3%ADmica.png)
+![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/soph18-patch-1/Home%20Edi%C3%A7%C3%A3o.png)
+![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/soph18-patch-1/Home%20Principal.png)
+![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/soph18-patch-1/Home%20Visualiza%C3%A7%C3%A3o.png)
+![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/soph18-patch-1/Imagens%20e%20Infos.%20Extras.png)
+![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/soph18-patch-1/Modo%20de%20Plantio.png)
+![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/soph18-patch-1/Receitas.png)
+![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/soph18-patch-1/Sobre%20N%C3%B3s.png)
+
 
 #### 3.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?<br>
   
