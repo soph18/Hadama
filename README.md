@@ -1,12 +1,14 @@
-# TRABALHO DE PI:  Título do Trabalho
+# TRABALHO DE PI:  Plantoterapia
 Trabalho desenvolvido durante a disciplina de Banco de Dados do Integrado
 
 # Sumário
 
-### 1. COMPONENTES<br>
-Integrantes do grupo<br>
-primeiro_componente_do_grupo:email_primeiro_componente@dominio.com<br>
-segundo_componente_do_grupo:email_segundo_componente@dominio.com<br>
+### 1. COMPONENTES<br>  
+Integrantes do grupo<br>    
+Amanda_de_Góes_Pires:amandagoespires@gmail.com  <br>
+Jessica_Nogueira_Duque:  JessieND3@gmail.com  <br> 
+Sophia_Caetano_Marques_Souza:  caetanomarquessouza@gmail.com  <br>
+
 ...
 
 ### 2.MINIMUNDO<br>
@@ -15,8 +17,13 @@ Entrevista com o usuário e identificação dos requisitos.(quando for o caso de
 Descrição textual das regras de negócio definidas como um subconjunto do mundo real cujos elementos são propriedades que desejamos incluir, processar, armazenar, gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.
 <br>
 
-> O sistema proposto para a "Devcom Projetos conterá as informacões aqui detalhadas. Dos Projetos serão armazenados o número, nome e cidade. Dos Departamentos serão armazenados o número e nome. O cliente destacou que cada projeto pode ter vários departamentos auxiliando no seu desenvolvimento, e cada departamento pode estar envolvido em vários projetos. Os dados relativos aos empregados que serão armazenados são: rg, nome, cpf, salário, data inicial do salario e supervisor de cada empregado. É importante destacar que cada empregado pode ser supervisionado por outro empregado, e obrigatoriamente deve estar alocado a um único departamento, mas pode gerenciar vários departamentos ou não gerenciar nenhum. Um empregado também pode participar de vários projetos, caso seja necessário, mas não precisa obrigatoriamente estar alocado em algum projeto. Com relação aos dependentes serão armazenadas as informações de nome do dependente, data de nascimento, sexo e grau de parentesco. Cada empregado pode ter vários dependentes, mas um dependente esta associado apenas a um único empregado. Com relação ao histórico de salário devemos armazenar as informações de valor do salário, data de início do salário no período e data final do salário no período. É importante lembrar que cada funcionario pode ter diversos eventos de histórico de salário associados a ele visto que este dado pode ser alterado várias vezes..
- 
+> O sistema proposto para a "Devcom Projetos conterá as informacões aqui detalhadas. Dos Projetos serão armazenados o número, nome e cidade. Dos Departamentos serão armazenados o número e nome. O cliente destacou que cada projeto pode ter vários departamentos auxiliando no seu desenvolvimento, e cada departamento pode estar envolvido em vários projetos. Os dados relativos aos empregados que serão armazenados são: rg, nome, cpf, salário, data inicial do salario e supervisor de cada empregado. É importante destacar que cada empregado pode ser supervisionado por outro empregado, e obrigatoriamente deve estar alocado a um único departamento, mas pode gerenciar vários departamentos ou não gerenciar nenhum. Um empregado também pode participar de vários projetos, caso seja necessário, mas não precisa obrigatoriamente estar alocado em algum projeto. Com relação aos dependentes serão armazenadas as informações de nome do dependente, data de nascimento, sexo e grau de parentesco. Cada empregado pode ter vários dependentes, mas um dependente esta associado apenas a um único empregado. Com relação ao histórico de salário devemos armazenar as informações de valor do salário, data de início do salário no período e data final do salário no período. É importante lembrar que cada funcionario pode ter diversos eventos de histórico de salário associados a ele visto que este dado pode ser alterado vá
+
+No Ifes Campus Serra, existe uma horta que é administrada e cuidada pela professora de Química da escola, com a ajuda de seus alunos. Eles plantam e colhem espécies que usam principalmente para chás, mas podem usar para outras comidas, e também as usam para estudar sobre suas propriedades químicas.
+O sistema web servirá para registrar sobre as plantas, algo feito apenas por quem tem uma conta, e também possibilitará a visualização destas informações por qualquer um na internet. Se o indivíduo for alguém que ajuda na plantação, ele poderá fazer uma conta utilizando seu nome, matrícula e senha, para depois utilizar a matrícula e senha toda vez que for fazer o login.
+Uma vez logado, para criar um novo projeto, que é um conjunto de informações sobre  alguma planta, ele precisará escolher o tipo de projeto, em que terão as opções de modo de plantio, estrutura química, receitas e plantas, e ao escolher qualquer uma delas será necessário dar um nome ao projeto. Cada projeto tem um espaço para comentários associado com a matrícula, o identificador do projeto em questão, a data, o identificador deste fórum e o espaço para os comentários. Para o modo de plantio será pedido também os materiais necessários e o passo a passo. Para a estrutura química será pedido uma imagem. Para uma receita, será pedido os ingredientes e o modo de preparo. Para uma planta serão pedido as imagens e informações extras.
+Quando existem um ou mais projetos já criados, é possível alterar estes. Dentre as opções de alteração estão: deletar, editar e renomear. Depois de sempre salvar o que é que esteja fazendo, seja criando um projeto ou alterando algo, estarão salvos e colocados na página inicial do site do sistema para pessoas de fora terem acesso aos registros.
+
 
 ### 3.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 Neste ponto a codificação não e necessária, somente as ideias de telas devem ser desenvolvidas. O princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas e/ou descartadas <br>
