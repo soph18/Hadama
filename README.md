@@ -6,7 +6,7 @@ Trabalho desenvolvido durante a disciplina de Banco de Dados do Integrado.
 ### 1. COMPONENTES<br>  
 Integrantes do grupo<br>    
 Amanda de Góes Pires: amandagoespires@gmail.com  <br>
-Jessica Nogueira Duque:  JessieND3@gmail.com  <br> 
+Jessica Nogueira Duque: JessieND3@gmail.com  <br> 
 Sophia Caetano Marques Souza:  caetanomarquessouza@gmail.com  <br>
 
 ### 2. MINIMUNDO<br>
