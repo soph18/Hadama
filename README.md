@@ -16,46 +16,43 @@ Uma vez logado, para criar um novo projeto, que é um conjunto de informações 
 Quando existem um ou mais projetos já criados, é possível alterar estes. Dentre as opções de alteração estão: deletar, editar e renomear. Depois de sempre salvar o que é que esteja fazendo, seja criando um projeto ou alterando algo, estarão salvos e colocados na página inicial do site do sistema para pessoas de fora terem acesso aos registros.
 
 ### 3.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
-Neste ponto a codificação não e necessária, somente as ideias de telas devem ser desenvolvidas. O princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas e/ou descartadas <br>
 
-Sugestão: https://balsamiq.com/products/mockups/<br>
+IMAGEM DO PROTÓTIPO
 
-![Alt text](https://github.com/discproint/template_projeto_integrador/blob/main/arquivos/balsamiq.png?raw=true "Title")
-![Arquivo PDF do Protótipo Balsamiq feito para Empresa Devcom](https://github.com/discproint/template_projeto_integrador/blob/main/arquivos/EmpresaDevcom.pdf?raw=true "Empresa Devcom")
-
-
-#### 3.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
-    a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes? 
-    b) Crie uma lista com os 5 principais relatórios que poderão ser obtidos por meio do sistema proposto!
-    
-> A Empresa DevCom precisa inicialmente dos seguintes relatórios:
-* Relatório que informe quais são os gerentes de cada departamento incluindo as seguintes informações: número do departamento,  nome do departamento, e nome do gerente.
-* Relatório de empregados por projeto incluindo as seguintes informações: número do projeto, nome do projeto, rg do empregado, nome do empregado e quantidade de horas de trabalho do empregado alocadas ao projeto.
-* Relatório de empregados com dependentes incluindo as seguintes informações: rg do empregado, nome do empregado, nome do dependente, tipo de relação, data de nascimento do dependente e sexo do dependente.
-* Relatório com a quantidade de empregados por cada departamento incluindo as seguintes informações: nome do departamento, supervisor e quantidade de empregados alocados no departamento.
-* Relatório de supervisores e supervisionados incluindo as seguintes informações: nome do supervisor e nome do supervisionado.
- 
+#### 3.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?<br>
+  
+* Relatório que informe quais são as contas já criadas no sistema web, incluindo nome, matrícula e senha.
+* Relatório de projetos já criados quem incluem o nome, o tipo de projeto, e as informações dele mesmo.
+* Relatório sobre o fórum que informe os comentários feitos, sobre qual projeto ele se refere, a identidade de quem comentou e a data.
 
 ### 4 TABELA DE DADOS DO SISTEMA:<br>
 
  ### 5.PMC<br>
- ![Exemplo de Tabela de dados da Empresa Devcom](https://github.com/discproint/template_projeto_integrador/blob/main/arquivos/PMC.jpg?raw=true "PMC")
- a) inclusão do PMC desenvolvido pelo grupo
- 
+
+IMAGEM DO PMC
  
 ### 6.MODELO CONCEITUAL<br>
-  
+ 
+IAMGEM MODELO CONCEITUAL
     
 #### 6.1 Descrição dos dados <br>
+
+
    
 ### 7	MODELO LÓGICO <br>
 
+IMAGEM MODELO LÓGICO
+
 ### 8	MODELO FÍSICO<br>
+
+IMAGEM MODELO FÍSICO
         
        
 ### 9	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 
+IMAGEM INSERT
 
+### AINDA NÃO FEITOS
 ### 10	TABELAS E PRINCIPAIS CONSULTAS<br>
 
 #### 10.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
