@@ -17,7 +17,7 @@ Quando existem um ou mais projetos já criados, é possível alterar estes. Dent
 
 ### 3.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 
-IMAGEM DO PROTÓTIPO
+![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/3f6c0462f643996136c8b5bca81f4fc9accdff07/Conhe%C3%A7a%20o%20Projeto.png)
 
 #### 3.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?<br>
   
