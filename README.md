@@ -37,6 +37,42 @@ IAMGEM MODELO CONCEITUAL
     
 #### 6.1 Descrição dos dados <br>
 
+CONTA: Tabela que armazena as informações relativas ao usuário com conta.<br>
+matrícula: campo que armazena o número da matrícula de um discente do Ifes.<br>
+nome: campo que armazena o nome completo de um discente do Ifes.<br>
+senha: campo que armazena uma senha criada por um discente do Ifes.<br>
+<br>
+PROJETO: Tabela que armazena as informações relativas aos projetos já criados por usuários com conta.<br>
+id_proj: campo que armazena um número de identificação de um projeto.<br>
+id_tpproj: campo que armazena o número de identificação do tipo de projeto.<br> 
+nome_proj: campo que armazena um nome dado a um projeto.<br>
+<br>
+TIPO PROJETO: Tabela que armazena os tipos de projeto existentes.<br>
+id_tpproj: campo que armazena um número de identificação de um certo tipo de projeto.<br>
+nome_tp: campo que armazena o nome de um certo tipo de projeto.<br>
+<br>
+RECEITA: Tabela que armazena as informações relativas aos projetos do tipo receita.<br>
+id_receita: campo que armazena um número de identificação para um receita.<br>
+id_tpproj: campo que armazena o número de identificação do tipo de projeto referente a receitas.<br>
+ingredientes: campo que armazena os ingredientes utilizados na receita.<br>
+modo_preparo: campo que armazena os passos do modo de preparo da receita.<br>
+<br>
+MODO DE PLANTIO: Tabela que armazena as informações relativas aos projetos do tipo modo de plantio.<br>
+id_modo: campo que armazena um número de identificação para um modo de plantio.<br>
+id_tpproj: campo que armazena o número de identificação do tipo de projeto referente ao modo de plantio.<br>
+materiais_nec: campo que armazena os materiais necessários no modo de plantio.<br>
+passo_passo: campo que armazena os passos do modo de plantio.<br>
+<br>
+PLANTA: Tabela que armazena as informações relativas aos projetos do tipo planta.<br>
+id_planta: campo que armazena um número de identificação para uma planta.<br>
+id_tpproj: campo que armazena o número de identificação do tipo de projeto referente às plantas.<br>
+imagem_plan: campo que armazena uma imagem da planta.<br>
+inform_extras: campo que armazena informações extras sobre a planta.<br>
+<br>
+ESTRUTURA QUÍMICA: Tabela que armazena as informações relativas aos projetos do tipo estrutura química.<br>
+id_estrutura: campo que armazena um número de identificação para uma estrutura química.<br>
+id_tpproj: campo que armazena o número de identificação do tipo de projeto referente às estruturas químicas.<br>
+imagem_est: campo que armazena uma imagem da estrutura química.<br>
 
    
 ### 7	MODELO LÓGICO <br>
