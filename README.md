@@ -190,33 +190,39 @@ ALTER TABLE Receita ADD CONSTRAINT id_tpproj
     FOREIGN KEY (id_tpproj)
     REFERENCES TipoProjeto (id_tpproj);
 
+
+### 9	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 insert into Conta(matricula,nome,senha) values ('2019tiimi0038','Aline Santos ','gatinha123');
 insert into Conta(matricula,nome,senha) values ('2019tiimi0089','Gabriel Souza','soufeliz345');
 insert into Conta(matricula,nome,senha) values ('2019tiimi0035','Tales do Amaral','deusdainfo777');
 insert into Conta(matricula,nome,senha) values ('2019tiimi0090','Amanda Góes','gatinha1410');
 insert into Conta(matricula,nome,senha) values ('2019tiimi1410','Davi Santos','venceremos13');
 
+
 insert into Projeto(id_proj,nome_proj,matricula,id_tpproj) values
-(‘PROJETO1234’,’Chá de boldo’,’2019tiimi0038’,’TPPROJ1’),
-(‘PROJETO1235’,’Hortênsia’,’2019tiimi0089’,’TPPROJ2’),
-(‘PROJETO1240’,’Boldo’,’2019tiimi0035’,’TPPROJ3’),
-(‘PROJETO1250’,’Estrutura Quimica da Camomila’,’2019tiimi1410’,’TPPROJ4’),
-(‘PROJETO1242’,’Chá de Camomila’,’2019tiimi0038’,’TPPROJ1’),
-(‘PROJETO1230’,’Chá de Manjericão’,’2019tiimi0089’,’TPPROJ1’),
-(‘PROJETO1231’,’Chá de Hortelã’,’2019tiimi0038’,’TPPROJ1’),
-(‘PROJETO1232’,’Girassol’,’2019tiimi0089’,’TPPROJ2’),
-(‘PROJETO1233’,’Acerola’,’2019tiimi0038’,’TPPROJ2’),
-(‘PROJETO1236’,’Pimenta do Reino’,’2019tiimi0089’,’TPPROJ2’),
-(‘PROJETO1237’,’Manjericão’,’2019tiimi0035’,’TPPROJ3’),
-(‘PROJETO1238’,’Hortelã’,’2019tiimi0090’,’TPPROJ3’),
-(‘PROJETO1239’,’Cravo’,’2019tiimi0035’,’TPPROJ3’),
-(‘PROJETO1241’,’Estrutura Quimica do manjericão’,’2019tiimi0090’,’TPPROJ4’),
-(‘PROJETO1245’,’Estrutura Quimica da hortelã’,’2019tiimi0035’,’TPPROJ4’),
-(‘PROJETO1251’,’Estrutura Quimica do cravo’,’2019tiimi0090’,’TPPROJ4’);
+('PROJETO1234','Chá de boldo','2019tiimi0038','TPPROJ1'),
+('PROJETO1235','Hortênsia','2019tiimi0089','TPPROJ2'),
+('PROJETO1240','Boldo','2019tiimi0035','TPPROJ3'),
+('PROJETO1250','Estrutura Quimica da Camomila','2019tiimi1410','TPPROJ4'),
+('PROJETO1242','Chá de Camomila','2019tiimi0038','TPPROJ1'),
+('PROJETO1230','Chá de Manjericão','2019tiimi0089','TPPROJ1'),
+('PROJETO1231','Chá de Hortelã','2019tiimi0038','TPPROJ1'),
+('PROJETO1232','Girassol','2019tiimi0089','TPPROJ2'),
+('PROJETO1233','Acerola','2019tiimi0038','TPPROJ2'),
+('PROJETO1236','Pimenta do Reino','2019tiimi0089','TPPROJ2'),
+('PROJETO1237','Manjericão','2019tiimi0035','TPPROJ3'),
+('PROJETO1238','Hortelã','2019tiimi0090','TPPROJ3'),
+('PROJETO1239','Cravo','2019tiimi0035','TPPROJ3'),
+('PROJETO1241','Estrutura Quimica do manjericão','2019tiimi0090','TPPROJ4'),
+('PROJETO1245','Estrutura Quimica da hortelã','2019tiimi0035','TPPROJ4'),
+('PROJETO1251','Estrutura Quimica do cravo','2019tiimi0090','TPPROJ4');
+
 
 
 insert into TipoProjeto(id_tpproj,nome_tp) values ('TPPROJ1','Receita'),('TPPROJ2','Modo de Plantio'),('TPPROJ3','Planta'),
-('PPROJ4','Estrutura Química');
+('TPPROJ4','Estrutura Química');
+
+
 
 
 insert into Receita(id_receita,ingredientes,modo_preparo,id_tpproj) values ('R1233','1 colher de chá de boldo
@@ -243,6 +249,7 @@ despejar na camomila.
 vezes por dia, e de preferência
  após ou entre as refeições','TPPROJ1');
 
+
 insert into Forum(id_coment,comentario,data,id_proj,matricula) values ('COMENT12341','Boa tarde, sabe onde 
 posso encontrar boldo para vender ou como plantar?','2022/07/21','PROJETO1234','2019tiimi0089'),
 ('COMENT12342','Olá, em breve postarei aqui
@@ -251,6 +258,8 @@ posso encontrar boldo para vender ou como plantar?','2022/07/21','PROJETO1234','
 saber como vc planta o boldo é uma planta fácil de plantar?','2022/09/23','PROJETO1240','2019tiimi1410'),
 ('COMENT12401','Olá, interessante a estrutura química, sabe me dizer quais as funções
 orgânicas dela?','2022/07/29','PROJETO1250','2019tiimi0035');
+
+
 
 
 insert into MododePlantio(id_modo,materiais_nec,passo_a_passo,id_tpproj) values ('M1233','vaso de plantas,
@@ -269,6 +278,7 @@ Regue após o plantio e deixe por 30 dias num ambiente úmido e quente, antes de
 Mantenha o solo úmido, mas sem encharcar;','TPPROJ2');
  
 
+
 insert into Planta(id_planta,imagem_plan,inform_extras,id_tpproj) values ('P1233','Imagem do boldo','Pode ser utilizado como 
 remédio caseiro para o fígado.Possui propriedades diuréticas,anti-inflamatória e antioxidante','TPPROJ3'),
 ('P1230','Imagem da camomila','Ajudar no tratamento de tosse, catarro;
@@ -284,6 +294,7 @@ e outros problemas respiratórios','TPPROJ3'),
 ('P1232','Imagem do cravo','Relaxante muscular;melhora a saúde óssea.
 Ajuda no controle da diarreia e facilita a digestão','TPPROJ3');
 
+
 insert into EstruturaQuimica(id_estrutura,imagem_est,id_tpproj) values ('E1233','Imagem da estrutura 
 química da camomila','TPPROJ4'),
 ('E1230','Imagem da estrutura 
@@ -292,11 +303,6 @@ química do manjericão','TPPROJ4'),
 química da ortelã','TPPROJ4'),
 ('E1232','Imagem da estrutura 
 química do cravo','TPPROJ4');
-        
-       
-### 9	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
-
-IMAGEM INSERT
 
 ### AINDA NÃO FEITOS
 ### 10	TABELAS E PRINCIPAIS CONSULTAS<br>
