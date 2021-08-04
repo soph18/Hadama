@@ -304,12 +304,24 @@ química da ortelã','TPPROJ4'),
 ('E1232','Imagem da estrutura 
 química do cravo','TPPROJ4');
 
-### AINDA NÃO FEITOS
 ### 10	TABELAS E PRINCIPAIS CONSULTAS<br>
 
 #### 10.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
+![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/main/10.1%20-%201.jpg)
+![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/main/10.1%20-%202.jpg)
+![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/main/10.1%20-%203.jpg)
+![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/main/10.1%20-%204.jpg)
+![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/main/10.1%20-%205.jpg)
+![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/main/10.1%20-%206.jpg)
+![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/main/10.1%20-%207.jpg)
+![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/main/10.1%20-%208.jpg)
 
 #### 10.2 PRINCIPAIS CONSULTAS DO SISTEMA <br>
+![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/main/10.2%20-%201.jpg)
+![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/main/10.2%20-%202.jpg)
+![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/main/10.2%20-%203.jpg)
+
+### AINDA NÃO FEITOS
  
  ### 11 Gráficos, relatórios, integração com Linguagem de programação e outras solicitações.<br>
  
