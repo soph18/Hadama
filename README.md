@@ -34,7 +34,6 @@ Quando existem um ou mais projetos já criados, é possível alterar estes. Dent
   
 * Relatório que informe quais são as contas já criadas no sistema web, incluindo nome, matrícula e senha.
 * Relatório de projetos já criados quem incluem o nome, o tipo de projeto, e as informações dele mesmo.
-* Relatório sobre o fórum que informe os comentários feitos, sobre qual projeto ele se refere, a identidade de quem comentou e a data.
 
 ### 4 TABELA DE DADOS DO SISTEMA:<br>
 
@@ -117,47 +116,31 @@ CREATE TABLE Projeto (
     id_tpproj varchar(30)
 );
 
-CREATE TABLE Forum (
-    id_coment varchar(20),
-    comentario varchar(5000),
-    Data date,
-    id_proj varchar(30),
-    matricula varchar(20),
-    PRIMARY KEY (id_coment, id_proj)
-);
+
 
 CREATE TABLE TipoProjeto (
     id_tpproj varchar(30) PRIMARY KEY,
     nome_tp varchar(30)
 );
 
-CREATE TABLE EstruturaQuimica (
-    id_estrutura varchar(30) PRIMARY KEY,
-    imagem_est varchar(80),
-    id_tpproj varchar(30)
-);
 
-CREATE TABLE Planta (
-    id_planta varchar(30) PRIMARY KEY,
-    imagem_plan varchar(30),
-    inform_extras varchar(3000),
-    id_tpproj varchar(30)
-);
-
-CREATE TABLE MododePlantio (
-    id_modo varchar(30) PRIMARY KEY,
-    materiais_nec varchar(300),
-    passo_a_passo varchar(1000),
-    id_tpproj varchar(30)
-);
-
-CREATE TABLE Receita (
-    id_receita varchar(30) PRIMARY KEY,
-    ingredientes varchar(500),
-    modo_preparo varchar(1000),
-    id_tpproj varchar(30)
-);
  
+ CREATE TABLE TipoAtributo (
+    id_atributo varchar(30) PRIMARY KEY,
+    nom_atributo varchar(30),
+    descricao text
+);
+
+CREATE TABLE ProjetoAtributo (
+    id_projatrib varchar(30) PRIMARY KEY,
+    id_atributo varchar(30),
+    id_proj varchar(30),
+    FOREIGN KEY(id_atributo)
+    REFERENCES TipoAtributo(id_atributo),
+    FOREIGN KEY(id_proj)
+    REFERENCES Projeto(id_proj)
+);
+
 ALTER TABLE Projeto ADD CONSTRAINT matricula
     FOREIGN KEY (matricula)
     REFERENCES Conta (matricula);
@@ -165,31 +148,9 @@ ALTER TABLE Projeto ADD CONSTRAINT matricula
 ALTER TABLE Projeto ADD CONSTRAINT id_tpproj
     FOREIGN KEY (id_tpproj)
     REFERENCES TipoProjeto (id_tpproj);
- 
-ALTER TABLE Forum ADD CONSTRAINT id_proj
-    FOREIGN KEY (id_proj)
-    REFERENCES Projeto (id_proj);
- 
-ALTER TABLE Forum ADD CONSTRAINT matricula
-    FOREIGN KEY (matricula)
-    REFERENCES Conta (matricula);
- 
-ALTER TABLE EstruturaQuimica ADD CONSTRAINT id_tpproj
-    FOREIGN KEY (id_tpproj)
-    REFERENCES TipoProjeto (id_tpproj);
- 
-ALTER TABLE Planta ADD CONSTRAINT id_tpproj
-    FOREIGN KEY (id_tpproj)
-    REFERENCES TipoProjeto (id_tpproj);
- 
-ALTER TABLE MododePlantio ADD CONSTRAINT id_tpproj
-    FOREIGN KEY (id_tpproj)
-    REFERENCES TipoProjeto (id_tpproj);
- 
-ALTER TABLE Receita ADD CONSTRAINT id_tpproj
-    FOREIGN KEY (id_tpproj)
-    REFERENCES TipoProjeto (id_tpproj);
+  
 
+ alter table Projeto add ordem int;
 
 ### 9	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 insert into Conta(matricula,nome,senha) values ('2019tiimi0038','Aline Santos ','gatinha123');
@@ -218,91 +179,78 @@ insert into Projeto(id_proj,nome_proj,matricula,id_tpproj) values
 ('PROJETO1251','Estrutura Quimica do cravo','2019tiimi0090','TPPROJ4');
 
 
+update Projeto set ordem=000001 where id_proj='PROJETO1234';
+update Projeto set ordem=000002 where id_proj='PROJETO1235';
+update Projeto set ordem=000003 where id_proj='PROJETO1240';
+update Projeto set ordem=000004 where id_proj='PROJETO1250';
+update Projeto set ordem=000005 where id_proj='PROJETO1242';
+update Projeto set ordem=000006 where id_proj='PROJETO1230';
+update Projeto set ordem=000007 where id_proj='PROJETO1231';
+update Projeto set ordem=000008 where id_proj='PROJETO1232';
+update Projeto set ordem=000009 where id_proj='PROJETO1233';
+update Projeto set ordem=000010 where id_proj='PROJETO1236';
+update Projeto set ordem=000011 where id_proj='PROJETO1237';
+update Projeto set ordem=000012 where id_proj='PROJETO1238';
+update Projeto set ordem=000013 where id_proj='PROJETO1239';
+update Projeto set ordem=000014 where id_proj='PROJETO1241';
+update Projeto set ordem=000015 where id_proj='PROJETO1245';
+update Projeto set ordem=000016 where id_proj='PROJETO1251';
+
+
 
 insert into TipoProjeto(id_tpproj,nome_tp) values ('TPPROJ1','Receita'),('TPPROJ2','Modo de Plantio'),('TPPROJ3','Planta'),
 ('TPPROJ4','Estrutura Química');
 
 
 
-
-insert into Receita(id_receita,ingredientes,modo_preparo,id_tpproj) values ('R1233','1 colher de chá de boldo
-150ml de água','Misturar 1 colher de chá
+insert into TipoAtributo(id_atributo, nom_atributo, descricao) values
+('ATRIBUTO1', 'Ingredientes','1 colher de chá de boldo'),
+('ATRIBUTO2','Ingredientes','150ml de água'),
+('ATRIBUTO3','Modo de preparo','Misturar 1 colher de chá
  de folhas de boldo secas
  em entre 150 ml e 200 ml 
 de água fervente. Desligar
  o fogo e deixar descansar
- por 10 minutos. Coar e beber','TPPROJ1'),
-('R1230','Misturar 1 colher de chá
- de folhas de boldo secas
- em entre 150 ml e 200 ml 
-de água fervente. Desligar
- o fogo e deixar descansar
- por 10 minutos. Coar e beber','Ferver a água, após fervida, 
-despejar na camomila.
- Depois, deixar em infusão
- por 7 minutos e em seguida coar','TPPROJ1'),
-('R1231','10 folhas de manjericão,1 xícara de água','Adicionar 10 folhas de manjericão em 1 xícara de água fervente. Deixar repousar por 5 minutos, esperar amornar, coar e beber a seguir','TPPROJ1'),
-('R1232','2 a 3 colheres de folhas frescas de manjericão e 
-150ml de água fervente','Numa xícara adicionar a hortelã e a água fervente. Tapar e deixar
- repousar durante 10 minutos.
- Este chá deve ser bebido 3 a 4 
-vezes por dia, e de preferência
- após ou entre as refeições','TPPROJ1');
-
-
-insert into Forum(id_coment,comentario,data,id_proj,matricula) values ('COMENT12341','Boa tarde, sabe onde 
-posso encontrar boldo para vender ou como plantar?','2022/07/21','PROJETO1234','2019tiimi0089'),
-('COMENT12342','Olá, em breve postarei aqui
- o modo de plantio do boldo','2022/07/22','PROJETO1234','2019tiimi0038'),
-('COMENT12401','Boa tarde! Gostaria de
-saber como vc planta o boldo é uma planta fácil de plantar?','2022/09/23','PROJETO1240','2019tiimi1410'),
-('COMENT12401','Olá, interessante a estrutura química, sabe me dizer quais as funções
-orgânicas dela?','2022/07/29','PROJETO1250','2019tiimi0035');
-
-
-
-
-insert into MododePlantio(id_modo,materiais_nec,passo_a_passo,id_tpproj) values ('M1233','vaso de plantas,
-terra,pá,planta','Reserve um vaso e coloque
+ por 10 minutos. Coar e beber'),
+('ATRIBUTO4','Materiais necessários','Semente de girassol'),
+('ATRIBUTO5','Materiais necessários','terra fertilizada'),
+('ATRIBUTO6','Passo-a-passo','Escolha o tipo de girassol,repare o solo;faça uma cova de 5 cm;
+coloque as sementes e cubra com a terra aerada e fertilizada'),
+('ATRIBUTO7','Foto da estrutura Quimica','Foto da estrutura química do manjericão'),
+('ATRIBUTO8','Materiais necessários','água'),
+('ATRIBUTO9','Materiais necessários','planta'),
+('ATRIBUTO10','Passo-a-passo','Reserve um vaso e coloque
 a terra. Em seguida coloque
-a planta com a ajuda de uma pá','TPPROJ2'),
-('M1230','Semente de girassol,
-terra fertilizada e uma pá','Escolha o tipo de girassol,repare o solo;faça uma cova de 5 cm;
-coloque as sementes e cubra com a terra aerada e fertilizada','TPPROJ2'),
-('M1231','Terra, adubo, muda
- de acerola, vaso, água e pá','Prepare a terra com o adubo de sua preferência;coloque a muda no vaso (espaçamento 5x5);pegue ao menos 2x na semana;mantenha em local ensolarado','TPPROJ2'),
-('M1232','Semente de Pimento do Reino,
-terra, adubo, água, pá,vaso e regador','Coloque as sementes da pimenta de molho na água morna 24 horas antes do cultivo;
-Encha o vaso com terra e coloque as sementes em 1cm de profundidade. Coloque-as separadas por espaços de 8cm;
-Regue após o plantio e deixe por 30 dias num ambiente úmido e quente, antes de posicionar ao ar livre;
-Mantenha o solo úmido, mas sem encharcar;','TPPROJ2');
- 
+a planta com a ajuda de uma pá'),
+('ATRIBUTO11','Foto da estrutura Quimica','Foto da estrutura química do cravo'),
+('ATRIBUTO12','Foto da planta','Foto do Cravo'),
+('ATRIBUTO13','Informações extras','Relaxante muscular;melhora a saúde óssea.
+Ajuda no controle da diarreia e facilita a digestão'),
+('ATRIBUTO14','Foto da estrutura Quimica','Foto da estrutura Química da hortelã'),
+('ATRIBUTO15','Materiais necessários','vaso de plantas'),
+('ATRIBUTO16','Materiais necessários','terra');
 
 
-insert into Planta(id_planta,imagem_plan,inform_extras,id_tpproj) values ('P1233','Imagem do boldo','Pode ser utilizado como 
-remédio caseiro para o fígado.Possui propriedades diuréticas,anti-inflamatória e antioxidante','TPPROJ3'),
-('P1230','Imagem da camomila','Ajudar no tratamento de tosse, catarro;
-Feridas;
-Problemas de estômago;
-Falta de apetite;
-Gases;
-Aftas;','TPPROJ3'),
-('P1231','Imagem da ortelã','Melhora a digestão
-Alivia a síndrome do intestino irritado
-Ajuda a aliviar sintomas da asma 
-e outros problemas respiratórios','TPPROJ3'),
-('P1232','Imagem do cravo','Relaxante muscular;melhora a saúde óssea.
-Ajuda no controle da diarreia e facilita a digestão','TPPROJ3');
+insert into ProjetoAtributo(id_projatrib, id_atributo, id_proj) values
+('PROJATRIB1', 'ATRIBUTO13','PROJETO1239'),
+('PROJATRIB2','ATRIBUTO12','PROJETO1239'),
+('PROJATRIB3','ATRIBUTO14','PROJETO1245'),
+('PROJATRIB4','ATRIBUTO1','PROJETO1234'),
+('PROJATRIB5','ATRIBUTO2','PROJETO1234'),
+('PROJATRIB6','ATRIBUTO3','PROJETO1234'),
+('PROJATRIB7','ATRIBUTO4','PROJETO1232'),
+('PROJATRIB8','ATRIBUTO5','PROJETO1232'),
+('PROJATRIB9','ATRIBUTO6','PROJETO1232'),
+('PROJATRIB10','ATRIBUTO7','PROJETO1241'),
+('PROJATRIB11','ATRIBUTO8','PROJETO1235'),
+('PROJATRIB12','ATRIBUTO9','PROJETO1235'),
+('PROJATRIB13','ATRIBUTO10','PROJETO1235'),
+('PROJATRIB14','ATRIBUTO11','PROJETO1251'),
+('PROJATRIB15','ATRIBUTO15','PROJETO1235'),
+('PROJATRIB16','ATRIBUTO16','PROJETO1235');
 
 
-insert into EstruturaQuimica(id_estrutura,imagem_est,id_tpproj) values ('E1233','Imagem da estrutura 
-química da camomila','TPPROJ4'),
-('E1230','Imagem da estrutura 
-química do manjericão','TPPROJ4'),
-('E1231','Imagem da estrutura 
-química da ortelã','TPPROJ4'),
-('E1232','Imagem da estrutura 
-química do cravo','TPPROJ4');
+
 
 ### 10	TABELAS E PRINCIPAIS CONSULTAS<br>
 
