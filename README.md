@@ -41,12 +41,7 @@ Quando existem um ou mais projetos já criados, é possível alterar estes. Dent
 ### 4 TABELA DE DADOS DO SISTEMA:<br>
 
 ![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/main/WhatsApp%20Image%202021-07-27%20at%203.31.53%20PM.jpeg)
-![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/main/WhatsApp%20Image%202021-07-27%20at%203.32.28%20PM.jpeg)
-![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/main/WhatsApp%20Image%202021-07-27%20at%203.33.59%20PM.jpeg)
-![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/main/WhatsApp%20Image%202021-07-27%20at%203.34.42%20PM.jpeg)
 ![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/main/WhatsApp%20Image%202021-07-27%20at%203.35.42%20PM.jpeg)
-![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/main/WhatsApp%20Image%202021-07-27%20at%203.36.24%20PM.jpeg)
-![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/main/WhatsApp%20Image%202021-07-27%20at%203.36.42%20PM.jpeg)
 
  ### 5.PMC<br>
 
