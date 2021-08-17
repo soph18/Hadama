@@ -56,7 +56,7 @@ Quando existem um ou mais projetos já criados, é possível alterar estes. Dent
 #### 6.1 Descrição dos dados <br>
 
 CONTA: Tabela que armazena as informações relativas ao usuário com conta.<br>
-matrícula: campo que armazena o número da matrícula de um discente do Ifes.<br>
+matricula: campo que armazena o número da matrícula de um discente do Ifes.<br>
 nome: campo que armazena o nome completo de um discente do Ifes.<br>
 senha: campo que armazena uma senha criada por um discente do Ifes.<br>
 <br>
@@ -64,15 +64,16 @@ PROJETO: Tabela que armazena as informações relativas aos projetos já criados
 id_proj: campo que armazena um número de identificação de um projeto.<br>
 id_tpproj: campo que armazena o número de identificação do tipo de projeto.<br> 
 nome_proj: campo que armazena um nome dado a um projeto.<br>
-ordem: campo que especifica um número inteiro para indicar a posição de um projeto para a visualização do público geral. <Br>
+ordem: campo que armazena um número inteiro para indicar a posição de um projeto para a visualização do público geral. <Br>
 <br>
 TIPO PROJETO: Tabela que armazena os tipos de projeto existentes.<br>
 id_tpproj: campo que armazena um número de identificação de um certo tipo de projeto.<br>
 nome_tp: campo que armazena o nome de um certo tipo de projeto.<br>
 <br>
-Tipo_Atributos: T
-
-
+ATRIBUTO: Tabela que armazena as informações dos atributos registrados de um projeto. <br>
+id_atributo: campo que armazena um número de identificação de um atributo. <br>
+tipo_atributo: campo que armazena o nome do tipo de atributo sendo guardado. <br>
+descricao: campo que armazena a descrição detalhada do atributo. <br>
    
 ### 7	MODELO LÓGICO <br>
 
