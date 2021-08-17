@@ -237,18 +237,14 @@ insert into ProjetoAtributo(id_projatrib, id_atributo, id_proj) values
 
 #### 10.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
 ![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/main/10.1%20-%201.jpg)
-![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/main/10.1%20-%202.jpg)
 ![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/main/10.1%20-%203.jpg)
-![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/main/10.1%20-%204.jpg)
-![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/main/10.1%20-%205.jpg)
-![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/main/10.1%20-%206.jpg)
-![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/main/10.1%20-%207.jpg)
-![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/main/10.1%20-%208.jpg)
+![alt text](blob:https://web.whatsapp.com/3387da08-d971-4483-9f7e-999bf55af027)
+![alt text](blob:https://web.whatsapp.com/e85844de-f7ff-4b59-97ea-3540ea50afa6)
+![alt text](blob:https://web.whatsapp.com/36301a0f-fff6-4ae0-81c2-86cb031bfedd)
 
 #### 10.2 PRINCIPAIS CONSULTAS DO SISTEMA <br>
 ![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/main/10.2%20-%201.jpg)
-![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/main/10.2%20-%202.jpg)
-![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/main/10.2%20-%203.jpg)
+![alt text](blob:https://web.whatsapp.com/3387da08-d971-4483-9f7e-999bf55af027)
 
 ### AINDA NÃO FEITOS
  
