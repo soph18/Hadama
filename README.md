@@ -51,7 +51,7 @@ Quando existem um ou mais projetos já criados, é possível alterar estes. Dent
  
 ### 6.MODELO CONCEITUAL<br>
  
-![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/main/WhatsApp%20Image%202021-07-27%20at%203.40.57%20PM.jpeg)
+![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/main/Print_Conceitual.PNG)
     
 #### 6.1 Descrição dos dados <br>
 
@@ -95,7 +95,7 @@ imagem_est: campo que armazena uma imagem da estrutura química.<br>
    
 ### 7	MODELO LÓGICO <br>
 
-![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/main/WhatsApp%20Image%202021-07-27%20at%203.41.57%20PM.jpeg)
+![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/main/Print_L%C3%B3gico.PNG)
 
 ### 8	MODELO FÍSICO<br>
 drop database if exists Plantoterapia;
