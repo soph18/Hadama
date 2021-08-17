@@ -36,6 +36,7 @@ Quando existem um ou mais projetos já criados, é possível alterar estes. Dent
 * Relatório de projetos já criados quem incluem o nome, o tipo de projeto, e as informações dele mesmo.
 * Gera um relatório que relacione quais tipos de atributos estão ligados a cada tipo de projeto.
 * Relatório que informe a quantidade de projetos criados para cada tipo de projeto.
+* Relatório que mostra todas as imagens do sistema, indicando seus respectivos atributos e projetos as quais pertencem.
 
 ### 4 TABELA DE DADOS DO SISTEMA:<br>
 
