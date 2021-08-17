@@ -244,7 +244,7 @@ insert into ProjetoAtributo(id_projatrib, id_atributo, id_proj) values
 ![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/main/10.1%20-%203.jpg)
 ![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/main/WhatsApp%20Image%202021-08-17%20at%2013.04.06.jpeg)
 ![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/main/WhatsApp%20Image%202021-08-17%20at%2013.04.40.jpeg)
-![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/main/WhatsApp%20Image%202021-08-17%20at%2013.04.41.jpeg)
+![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Atributo.jpg)
 
 #### 10.2 PRINCIPAIS CONSULTAS DO SISTEMA <br>
 ![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/main/10.2%20-%201.jpg)
