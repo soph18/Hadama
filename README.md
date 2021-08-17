@@ -47,7 +47,7 @@ Quando existem um ou mais projetos já criados, é possível alterar estes. Dent
  
 ### 6.MODELO CONCEITUAL<br>
  
-![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/main/Print_Conceitual.PNG)
+![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Print_Conceitual.PNG)
     
 #### 6.1 Descrição dos dados <br>
 
@@ -73,7 +73,7 @@ descricao: campo que armazena a descrição detalhada do atributo. <br>
    
 ### 7	MODELO LÓGICO <br>
 
-![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/main/Print_L%C3%B3gico.PNG)
+![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Print_L%C3%B3gico.PNG)
 
 ### 8	MODELO FÍSICO<br>
 drop database if exists Plantoterapia;
