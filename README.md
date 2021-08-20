@@ -128,9 +128,9 @@ ALTER TABLE Projeto ADD CONSTRAINT id_tpproj
     REFERENCES TipoProjeto (id_tpproj);
   
 
- alter table Projeto add ordem int;
- alter table TipoAtributo rename column nom_atributo to tipo_atributo;
- alter table TipoAtributo rename to Atributo;
+ alter table Projeto add ordem int; <br>
+ alter table TipoAtributo rename column nom_atributo to tipo_atributo; <br>
+ alter table TipoAtributo rename to Atributo; <br>
 
 
 ### 9	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
@@ -245,9 +245,9 @@ insert into ProjetoAtributo(id_projatrib, id_atributo, id_proj) values
 #### 10.2 PRINCIPAIS CONSULTAS DO SISTEMA <br>
 ![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/main/10.2%20-%201.jpg)
 ![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/main/WhatsApp%20Image%202021-08-17%20at%2013.04.06.jpeg)
-  ! [alt text] (https://raw.githubusercontent.com/soph18/Hadama/main/Consulta3.png)
-   ! [alt text] (https://raw.githubusercontent.com/soph18/Hadama/main/Consulta4.png)
-   ! [alt text] (https://raw.githubusercontent.com/soph18/Hadama/main/Consulta5.png)
+![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Consulta3.png)
+![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Consulta4.png)
+![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Consulta5.png)
 
 ### AINDA NÃO FEITOS
  
