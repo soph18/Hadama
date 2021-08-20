@@ -130,7 +130,7 @@ ALTER TABLE Projeto ADD CONSTRAINT id_tpproj
 
  alter table Projeto add ordem int;
  alter table TipoAtributo rename column nom_atributo to tipo_atributo;
-alter table TipoAtributo rename to Atributo;
+ alter table TipoAtributo rename to Atributo;
 
 
 ### 9	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
