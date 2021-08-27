@@ -31,12 +31,11 @@ Quando existem um ou mais projetos já criados, é possível alterar estes. Dent
 
 
 #### 3.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?<br>
-  
-* Relatório que informe quais são as contas já criadas no sistema web, incluindo nome, matrícula e senha.
-* Relatório de projetos já criados quem incluem o nome, o tipo de projeto, e as informações dele mesmo.
-* Gera um relatório que relacione quais tipos de atributos estão ligados a cada tipo de projeto.
+* Relatório que informe a quantidade de projetos relacionados a cada conta.
+* Relatório que informa a quantidade de atributos relacionados a cada conta.
+* Gera um relatório da quantidade de atributos existentes no sistema para cada tipo de projeto.
 * Relatório que informe a quantidade de projetos criados para cada tipo de projeto.
-* Relatório que mostra todas as imagens do sistema, indicando seus respectivos atributos e projetos as quais pertencem.
+* Relatório que mostra a quantidade de fotos existentes para cada tipo de projeto.
 
 ### 4 TABELA DE DADOS DO SISTEMA:<br>
 
