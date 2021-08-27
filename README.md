@@ -266,6 +266,8 @@ insert into ProjetoAtributo(id_projatrib, id_atributo, id_proj) values
  ### 11 Gráficos, relatórios, integração com Linguagem de programação e outras solicitações.<br>
  
  #### 11.1	Integração com Linguagem de programação; <br>
+ ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Integra%C3%A7%C3%A3o1.jpg)
+ ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Integra%C3%A7%C3%A3o2.png)
  
  #### 11.2	Desenvolvimento de gráficos/relatórios pertinentes, juntamente com demais solicitações feitas pelo professor.
  
