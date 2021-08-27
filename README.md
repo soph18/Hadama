@@ -270,9 +270,9 @@ insert into ProjetoAtributo(id_projatrib, id_atributo, id_proj) values
  ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Integra%C3%A7%C3%A3o2.png)
  
  #### 11.2	Desenvolvimento de gráficos/relatórios pertinentes, juntamente com demais solicitações feitas pelo professor.
- ![alt text] (https://raw.githubusercontent.com/soph18/Hadama/main/relatorio1.1.jpe)
- ![alt text] (https://raw.githubusercontent.com/soph18/Hadama/main/relatorio1.2.jpe)
- ![alt text] (https://raw.githubusercontent.com/soph18/Hadama/main/relatorio1.3.jpe)
+ ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/relatorio1.1.jpeg)
+ ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/relatorio1.2.jpeg)
+ ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/relatorio1.3.jpeg)
  
  
  ### 12 Slides e Apresentação em vídeo. <br>
