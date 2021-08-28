@@ -250,11 +250,14 @@ insert into ProjetoAtributo(id_projatrib, id_atributo, id_proj) values
 ### 10	TABELAS E PRINCIPAIS CONSULTAS<br>
 
 #### 10.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
-![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/main/10.1%20-%201.jpg)
-![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/main/10.1%20-%203.jpg)
-![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/main/WhatsApp%20Image%202021-08-17%20at%2013.04.06.jpeg)
-![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/main/WhatsApp%20Image%202021-08-17%20at%2013.04.40.jpeg)
-![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Atributo.jpg)
+![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Consultas%20tabelas%20completas/Consulta_Conta.PNG)
+![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Consultas%20tabelas%20completas/Consulta_TipoProjeto.PNG)
+![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Consultas%20tabelas%20completas/Consulta_Projeto.PNG)
+![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Consultas%20tabelas%20completas/Consulta_ProjetoAtributo_1.PNG)
+![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Consultas%20tabelas%20completas/Consulta_ProjetoAtributo_2.PNG)
+![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Consultas%20tabelas%20completas/Consulta_Atributo_1.PNG)
+![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Consultas%20tabelas%20completas/Consulta_Atributo_2.PNG)
+![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Consultas%20tabelas%20completas/Consulta_Atributo_3.PNG)
 
 #### 10.2 PRINCIPAIS CONSULTAS DO SISTEMA <br>
 ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Consulta11.png)
