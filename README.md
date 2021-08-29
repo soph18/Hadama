@@ -22,7 +22,6 @@ Quando existem um ou mais projetos já criados, é possível alterar estes. Dent
 ![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/soph18-patch-1/Escolha%20Projeto.png)
 ![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/soph18-patch-1/Estrutura%20Qu%C3%ADmica.png)
 ![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/soph18-patch-1/Home%20Edi%C3%A7%C3%A3o.png)
-![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Projeto1.png)
 ![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/soph18-patch-1/Home%20Principal.png)
 ![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/soph18-patch-1/Home%20Visualiza%C3%A7%C3%A3o.png)
 ![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/soph18-patch-1/Imagens%20e%20Infos.%20Extras.png)
@@ -40,20 +39,14 @@ Quando existem um ou mais projetos já criados, é possível alterar estes. Dent
 
 ### 4 TABELA DE DADOS DO SISTEMA:<br>
 
-![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Imagem1.PNG)
-![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/conta1.png)
-![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Imagem2.PNG)
-![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Imagem2.1.PNG)
-![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Imagem2.2.PNG)
-![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Imagem2.3.PNG)
-![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Imagem2.4.PNG)
-![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Imagem2.5.PNG)
-![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Imagem3.PNG)
-![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Imagem3.1.PNG)
-![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Imagem3.2.PNG)
-![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Imagem4.PNG)
-![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Imagem4.1.PNG)
-![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Imagem4.2.PNG)
+![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/tabelas/Parte1.PNG)
+![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/tabelas/Parte2.PNG)
+![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/tabelas/Parte3.PNG)
+![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/tabelas/Parte4.PNG)
+![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/tabelas/Parte5.PNG)
+![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/tabelas/Parte6.PNG)
+![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/tabelas/Parte7.PNG)
+![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/tabelas/Parte8.PNG)
 
  ### 5.PMC<br>
 
