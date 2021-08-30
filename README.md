@@ -282,5 +282,25 @@ insert into ProjetoAtributo(id_projatrib, id_atributo, id_proj) values
  ### 12 Slides e Apresentação em vídeo. <br>
  
  #### 12.1 Slides; <br>
+ ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/apresentacaoslides/Slide1.PNG)
+ ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/apresentacaoslides/Slide2.PNG)
+ ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/apresentacaoslides/Slide3.PNG)
+ ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/apresentacaoslides/Slide4.PNG)
+ ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/apresentacaoslides/Slide5.PNG)
+ ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/apresentacaoslides/Slide6.PNG)
+ ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/apresentacaoslides/Slide7.PNG)
+ ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/apresentacaoslides/Slide8.PNG)
+ ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/apresentacaoslides/Slide9.PNG)
+ ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/apresentacaoslides/Slide10.PNG)
+ ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/apresentacaoslides/Slide11.PNG)
+ ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/apresentacaoslides/Slide12.PNG)
+ ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/apresentacaoslides/Slide13.PNG)
+ ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/apresentacaoslides/Slide14.PNG)
+ ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/apresentacaoslides/Slide15.PNG)
+ ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/apresentacaoslides/Slide16.PNG)
+ ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/apresentacaoslides/Slide17.PNG)
+ ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/apresentacaoslides/Slide18.PNG)
+ ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/apresentacaoslides/Slide19.PNG)
+ ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/apresentacaoslides/Slide20.PNG)
  
  #### 12.2 Apresentação em vídeo <br>
