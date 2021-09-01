@@ -303,4 +303,4 @@ insert into ProjetoAtributo(id_projatrib, id_atributo, id_proj) values
  ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/apresentacaoslides/Slide19.PNG)
  ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/apresentacaoslides/Slide20.PNG)
  
- #### 12.2 Apresentação em vídeo <br>
+ #### 12.2 Apresentação em vídeo: https://youtu.be/opwMuvvlfog <br>
