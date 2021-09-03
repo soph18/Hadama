@@ -39,14 +39,7 @@ Quando existem um ou mais projetos já criados, é possível alterar estes. Dent
 
 ### 4 TABELA DE DADOS DO SISTEMA:<br>
 
-![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/tabelas/Parte1.PNG)
-![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/tabelas/Parte2.PNG)
-![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/tabelas/Parte3.PNG)
-![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/tabelas/Parte4.PNG)
-![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/tabelas/Parte5.PNG)
-![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/tabelas/Parte6.PNG)
-![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/tabelas/Parte7.PNG)
-![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/tabelas/Parte8.PNG)
+Link: https://docs.google.com/spreadsheets/d/1GGuo_0yfd_p8xazYE0qZfNkxYcsa1S6iSd8mlfjLKqs/edit?usp=sharing
 
  ### 5.PMC<br>
 
@@ -259,7 +252,6 @@ insert into ProjetoAtributo(id_projatrib, id_atributo, id_proj) values
 ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Consulta14.png)
 ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Consulta15.png)
 
-### AINDA NÃO FEITOS
  
  ### 11 Gráficos, relatórios, integração com Linguagem de programação e outras solicitações.<br>
  
