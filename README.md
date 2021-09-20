@@ -238,21 +238,21 @@ insert into ProjetoAtributo(id_projatrib, id_atributo, id_proj) values
 #### 10.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
  select * from Conta;<br>
  <br>
-![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Consultas%20tabelas%20completas/Consulta_Conta.PNG)<br>
+![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Consultas%20tabelas%20completas/Consulta_Conta.PNG)
  <br>
  select * from TipoProjeto;<br>
  <br>
-![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Consultas%20tabelas%20completas/Consulta_TipoProjeto.PNG)<br>
+![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Consultas%20tabelas%20completas/Consulta_TipoProjeto.PNG)
  <br>
  select * from Projeto;<br>
  <br>
-![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Consultas%20tabelas%20completas/Consulta_Projeto.PNG)<br>
+![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Consultas%20tabelas%20completas/Consulta_Projeto.PNG)
  <br>
  select * from ProjetoAtributo;<br>
  <br>
-![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Consultas%20tabelas%20completas/Consulta_ProjetoAtributo_1.PNG)<br>
+![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Consultas%20tabelas%20completas/Consulta_ProjetoAtributo_1.PNG)
  <br>
-![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Consultas%20tabelas%20completas/Consulta_ProjetoAtributo_2.PNG)<br>
+![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Consultas%20tabelas%20completas/Consulta_ProjetoAtributo_2.PNG)
  <br>
  select * from Atributo;<br>
  <br>
