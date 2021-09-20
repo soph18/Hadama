@@ -237,18 +237,31 @@ insert into ProjetoAtributo(id_projatrib, id_atributo, id_proj) values
 
 #### 10.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
  select * from Conta;<br>
-![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Consultas%20tabelas%20completas/Consulta_Conta.PNG)
+ <br>
+![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Consultas%20tabelas%20completas/Consulta_Conta.PNG)<br>
+ <br>
  select * from TipoProjeto;<br>
-![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Consultas%20tabelas%20completas/Consulta_TipoProjeto.PNG)
+ <br>
+![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Consultas%20tabelas%20completas/Consulta_TipoProjeto.PNG)<br>
+ <br>
  select * from Projeto;<br>
-![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Consultas%20tabelas%20completas/Consulta_Projeto.PNG)
+ <br>
+![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Consultas%20tabelas%20completas/Consulta_Projeto.PNG)<br>
+ <br>
  select * from ProjetoAtributo;<br>
-![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Consultas%20tabelas%20completas/Consulta_ProjetoAtributo_1.PNG)
-![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Consultas%20tabelas%20completas/Consulta_ProjetoAtributo_2.PNG)
+ <br>
+![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Consultas%20tabelas%20completas/Consulta_ProjetoAtributo_1.PNG)<br>
+ <br>
+![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Consultas%20tabelas%20completas/Consulta_ProjetoAtributo_2.PNG)<br>
+ <br>
  select * from Atributo;<br>
-![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Consultas%20tabelas%20completas/Consulta_Atributo_1.PNG)
-![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Consultas%20tabelas%20completas/Consulta_Atributo_2.PNG)
-![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Consultas%20tabelas%20completas/Consulta_Atributo_3.PNG)
+ <br>
+![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Consultas%20tabelas%20completas/Consulta_Atributo_1.PNG)<br>
+ <br>
+![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Consultas%20tabelas%20completas/Consulta_Atributo_2.PNG)<br>
+ <br>
+![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Consultas%20tabelas%20completas/Consulta_Atributo_3.PNG)<br>
+ <br>
 
 #### 10.2 PRINCIPAIS CONSULTAS DO SISTEMA <br>
  select con.matricula"Matrícula",count(pro.id_proj)"Quantidade de Projetos" from Conta con join Projeto pro on(con.matricula=pro.matricula) group by con.matricula;
