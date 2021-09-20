@@ -256,12 +256,11 @@ insert into ProjetoAtributo(id_projatrib, id_atributo, id_proj) values
  <br>
  select * from Atributo;<br>
  <br>
-![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Consultas%20tabelas%20completas/Consulta_Atributo_1.PNG)<br>
+![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Consultas%20tabelas%20completas/Consulta_Atributo_1.PNG)
  <br>
-![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Consultas%20tabelas%20completas/Consulta_Atributo_2.PNG)<br>
+![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Consultas%20tabelas%20completas/Consulta_Atributo_2.PNG)
  <br>
-![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Consultas%20tabelas%20completas/Consulta_Atributo_3.PNG)<br>
- <br>
+![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Consultas%20tabelas%20completas/Consulta_Atributo_3.PNG)
 
 #### 10.2 PRINCIPAIS CONSULTAS DO SISTEMA <br>
  select con.matricula"Matrícula",count(pro.id_proj)"Quantidade de Projetos" from Conta con join Projeto pro on(con.matricula=pro.matricula) group by con.matricula;
