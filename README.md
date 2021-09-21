@@ -1,12 +1,12 @@
 # TRABALHO DE PI:  Plantoterapia
-Trabalho desenvolvido durante a disciplina de Banco de Dados do Integrado.
+Trabalho desenvolvido durante a disciplina de Banco de Dados do Integrado no Ifes Campus Serra.
 
 # Sumário
 
 ### 1. COMPONENTES<br>  
 Integrantes do grupo<br>    
 Amanda de Góes Pires: amandagoespires@gmail.com  <br>
-Jessica Nogueira Duque: JessieND3@gmail.com  <br> 
+Jessica Nogueira Duque: jessiend3@gmail.com  <br> 
 Sophia Caetano Marques Souza:  caetanomarquessouza@gmail.com  <br>
 
 ### 2. MINIMUNDO<br>
@@ -298,15 +298,15 @@ group by tp.nome_tp; <br>
  ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Integra%C3%A7%C3%A3o2.png)
  
  #### 11.2	Desenvolvimento de gráficos/relatórios pertinentes, juntamente com demais solicitações feitas pelo professor.
- ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/relatorio1.1.jpeg)
- ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/relatorio1.2.jpeg)
- ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/relatorio1.3.jpeg)
- ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/relatorio2.1.jpeg)
- ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/relatorio2.2.jpeg)
- ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/relatorio2.3.jpeg)
- ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/relatorio3.jpeg)
- ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/relatorio%204.jpeg)
- ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/relatorio5.jpeg)
+ ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Relat%C3%B3rios/Relat%C3%B3rio1_1.PNG)
+ ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Relat%C3%B3rios/Relat%C3%B3rio1_2.PNG)
+ ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Relat%C3%B3rios/Relat%C3%B3rio1_3.PNG)
+ ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Relat%C3%B3rios/Relat%C3%B3rio2_1.jpeg)
+ ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Relat%C3%B3rios/Relat%C3%B3rio2_2.jpeg)
+ ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Relat%C3%B3rios/Relat%C3%B3rio2_3.jpeg)
+ ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Relat%C3%B3rios/Relat%C3%B3rio3.jpeg)
+ ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Relat%C3%B3rios/Relat%C3%B3rio4.jpeg)
+ ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Relat%C3%B3rios/Relat%C3%B3rio5.jpeg)
  
  
  ### 12 Slides e Apresentação em vídeo. <br>
