@@ -47,7 +47,7 @@ Link: https://docs.google.com/spreadsheets/d/1GGuo_0yfd_p8xazYE0qZfNkxYcsa1S6iSd
  
 ### 6.MODELO CONCEITUAL<br>
  
-![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Print_Conceitual.PNG)
+![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Modelos/Modelo%20Conceitual.PNG)
     
 #### 6.1 Descrição dos dados <br>
 
