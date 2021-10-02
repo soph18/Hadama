@@ -73,7 +73,7 @@ descricao: campo que armazena a descrição detalhada do atributo. <br>
    
 ### 7	MODELO LÓGICO <br>
 
-![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Print_L%C3%B3gico.PNG)
+![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Modelos/Modelo%20L%C3%B3gico.png)
 
 ### 8	MODELO FÍSICO<br>
 drop database if exists Plantoterapia;
