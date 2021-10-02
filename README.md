@@ -3,19 +3,19 @@ Trabalho desenvolvido durante a disciplina de Banco de Dados do Integrado no Ife
 
 # Sumário
 
-### 1. COMPONENTES<br>  
+## 1. COMPONENTES<br>  
 Integrantes do grupo<br>    
 Amanda de Góes Pires: amandagoespires@gmail.com  <br>
 Jessica Nogueira Duque: jessiend3@gmail.com  <br> 
 Sophia Caetano Marques Souza:  caetanomarquessouza@gmail.com  <br>
 
-### 2. MINIMUNDO<br>
+## 2. MINIMUNDO<br>
 No Ifes Campus Serra, existe uma horta que é administrada e cuidada pela professora de Química da escola, com a ajuda de seus alunos. Eles plantam e colhem espécies que usam principalmente para chás, mas podem usar para outras comidas, e também as usam para estudar sobre suas propriedades químicas.
 O sistema web servirá para registrar sobre as plantas, algo feito apenas por quem tem uma conta, e também possibilitará a visualização destas informações por qualquer um na internet. Se o indivíduo for alguém que ajuda na plantação, ele poderá fazer uma conta utilizando seu nome, matrícula e senha, para depois utilizar a matrícula e senha toda vez que for fazer o login.
 Uma vez logado, para criar um novo projeto, que é um conjunto de informações sobre  alguma planta, ele precisará escolher o tipo de projeto, em que terão as opções de modo de plantio, estrutura química, receitas e plantas, e ao escolher qualquer uma delas será necessário dar um nome ao projeto. Cada projeto tem um espaço para comentários associado com a matrícula, o identificador do projeto em questão, a data, o identificador deste fórum e o espaço para os comentários. Para o modo de plantio será pedido também os materiais necessários e o passo a passo. Para a estrutura química será pedido uma imagem. Para uma receita, será pedido os ingredientes e o modo de preparo. Para uma planta serão pedido as imagens e informações extras.
 Quando existem um ou mais projetos já criados, é possível alterar estes. Dentre as opções de alteração estão: deletar, editar e renomear. Depois de sempre salvar o que é que esteja fazendo, seja criando um projeto ou alterando algo, estarão salvos e colocados na página inicial do site do sistema para pessoas de fora terem acesso aos registros.
 
-### 3.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
+## 3. RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 
 ![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/3f6c0462f643996136c8b5bca81f4fc9accdff07/Conhe%C3%A7a%20o%20Projeto.png)
 ![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/soph18-patch-1/Entrar%26Registrar.png)
@@ -30,26 +30,26 @@ Quando existem um ou mais projetos já criados, é possível alterar estes. Dent
 ![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/soph18-patch-1/Sobre%20N%C3%B3s.png)
 
 
-#### 3.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?<br>
+### 3.1 Quais perguntas podem ser respondidas com o sistema proposto? <br>
 * Relatório que informe a quantidade de projetos relacionados a cada conta.
 * Relatório que informa a quantidade de atributos relacionados a cada conta.
 * Gera um relatório da quantidade de atributos existentes no sistema para cada tipo de projeto.
 * Relatório que informe a quantidade de projetos criados para cada tipo de projeto.
 * Relatório que mostra a quantidade de fotos existentes para cada tipo de projeto.
 
-### 4 TABELA DE DADOS DO SISTEMA:<br>
+## 4. TABELA DE DADOS DO SISTEMA:<br>
 
 Link: https://docs.google.com/spreadsheets/d/1GGuo_0yfd_p8xazYE0qZfNkxYcsa1S6iSd8mlfjLKqs/edit?usp=sharing
 
- ### 5.PMC<br>
+ ## 5. PMC <br>
 
 ![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/main/WhatsApp%20Image%202021-07-27%20at%203.39.06%20PM.jpeg)
  
-### 6.MODELO CONCEITUAL<br>
+## 6. MODELO CONCEITUAL<br>
  
 ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Modelos/Modelo%20Conceitual.PNG)
     
-#### 6.1 Descrição dos dados <br>
+### 6.1 Descrição dos dados <br>
 
 CONTA: Tabela que armazena as informações relativas ao usuário com conta.<br>
 matricula: campo que armazena o número da matrícula de um discente do Ifes.<br>
@@ -71,11 +71,11 @@ id_atributo: campo que armazena um número de identificação de um atributo. <b
 tipo_atributo: campo que armazena o nome do tipo de atributo sendo guardado. <br>
 descricao: campo que armazena a descrição detalhada do atributo. <br>
    
-### 7	MODELO LÓGICO <br>
+## 7.	MODELO LÓGICO <br>
 
 ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Modelos/Modelo%20L%C3%B3gico.png)
 
-### 8	MODELO FÍSICO<br>
+## 8.	MODELO FÍSICO<br>
 drop database if exists Plantoterapia;
 
 CREATE DATABASE "Plantoterapia";
@@ -133,7 +133,7 @@ ALTER TABLE TipoAtributo RENAME column nom_atributo TO tipo_atributo;
 
 ALTER TABLE TipoAtributo RENAME TO Atributo; 
 
-### 9	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
+## 9.	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 insert into Conta(matricula,nome,senha) values ('2019tiimi0038','Aline Santos ','gatinha123');
 insert into Conta(matricula,nome,senha) values ('2019tiimi0089','Gabriel Souza','soufeliz345');
 insert into Conta(matricula,nome,senha) values ('2019tiimi0035','Tales do Amaral','deusdainfo777');
@@ -178,10 +178,8 @@ update Projeto set ordem=000015 where id_proj='PROJETO1245';
 update Projeto set ordem=000016 where id_proj='PROJETO1251';
 
 
-
 insert into TipoProjeto(id_tpproj,nome_tp) values ('TPPROJ1','Receita'),('TPPROJ2','Modo de Plantio'),('TPPROJ3','Planta'),
 ('TPPROJ4','Estrutura Química');
-
 
 
 insert into TipoAtributo(id_atributo, nom_atributo, descricao) values
@@ -231,9 +229,9 @@ insert into ProjetoAtributo(id_projatrib, id_atributo, id_proj) values
 ('PROJATRIB16','ATRIBUTO16','PROJETO1235');
 
 
-### 10	TABELAS E PRINCIPAIS CONSULTAS<br>
+## 10.	TABELAS E PRINCIPAIS CONSULTAS<br>
 
-#### 10.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS <br>
+### 10.1	Consultas das tabelas com todos os dados inseridos <br>
  select * from Conta;<br>
  
 ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Consultas%20tabelas%20completas/Consulta_Conta.PNG)
@@ -260,7 +258,7 @@ insert into ProjetoAtributo(id_projatrib, id_atributo, id_proj) values
  
 ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Consultas%20tabelas%20completas/Consulta_Atributo_3.PNG)
 
-#### 10.2 PRINCIPAIS CONSULTAS DO SISTEMA <br>
+### 10.2 Principais consultas do sistema <br>
 select con.matricula"Matrícula",count(pro.id_proj)"Quantidade de Projetos" from Conta con join Projeto pro on(con.matricula=pro.matricula) group by con.matricula; <br>
  
 ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Consulta11.png)
@@ -289,13 +287,13 @@ group by tp.nome_tp; <br>
 ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Consulta15.png)
 
  
- ### 11 Gráficos, relatórios, integração com Linguagem de programação e outras solicitações.<br>
+ ## 11. GRÁFICOS, RELATÓRIOS, INTEGRAÇÃO COM LINGUAGEM DE PROGRAMAÇÃO E OUTRAS SOLICITAÇÕES <br>
  
- #### 11.1	Integração com Linguagem de programação; <br>
+ ### 11.1	Integração com Linguagem de programação <br>
  ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Integra%C3%A7%C3%A3o1.jpg)
  ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Integra%C3%A7%C3%A3o2.png)
  
- #### 11.2	Desenvolvimento de gráficos/relatórios pertinentes, juntamente com demais solicitações feitas pelo professor.
+ ### 11.2	Desenvolvimento de gráficos/relatórios pertinentes, juntamente com demais solicitações feitas pelo professor
  ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Relat%C3%B3rios/Relat%C3%B3rio1_1.PNG)
  ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Relat%C3%B3rios/Relat%C3%B3rio1_2.PNG)
  ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Relat%C3%B3rios/Relat%C3%B3rio1_3.PNG)
@@ -307,8 +305,8 @@ group by tp.nome_tp; <br>
  ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Relat%C3%B3rios/Relat%C3%B3rio5.jpeg)
  
  
- ### 12 Slides e Apresentação em vídeo. <br>
+ ## 12. SLIDES E APRESENTAÇÃO EM VÍDEO <br>
  
- #### 12.1 Slides: https://docs.google.com/presentation/d/1J5q3_IFNHZ1oFranBZIqQj9kgW1IYTXld40ILd6ItOA/edit?usp=sharing <br>
+ ### 12.1 Slides: https://docs.google.com/presentation/d/1J5q3_IFNHZ1oFranBZIqQj9kgW1IYTXld40ILd6ItOA/edit?usp=sharing <br>
  
- #### 12.2 Apresentação em vídeo formato pecha kucha: https://youtu.be/opwMuvvlfog 
+ ### 12.2 Apresentação em vídeo formato pecha kucha: https://youtu.be/opwMuvvlfog 
