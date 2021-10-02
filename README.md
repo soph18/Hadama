@@ -78,7 +78,7 @@ descricao: campo que armazena a descrição detalhada do atributo. <br>
 ### 8	MODELO FÍSICO<br>
 drop database if exists Plantoterapia;
 
-CREATE DATABASE "Plantoterapia"
+CREATE DATABASE "Plantoterapia";
 
 
 CREATE TABLE Conta (
@@ -233,7 +233,7 @@ insert into ProjetoAtributo(id_projatrib, id_atributo, id_proj) values
 
 ### 10	TABELAS E PRINCIPAIS CONSULTAS<br>
 
-#### 10.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
+#### 10.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS <br>
  select * from Conta;<br>
  
 ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Consultas%20tabelas%20completas/Consulta_Conta.PNG)
