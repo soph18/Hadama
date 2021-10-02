@@ -127,11 +127,11 @@ ALTER TABLE Projeto ADD CONSTRAINT id_tpproj
     FOREIGN KEY (id_tpproj)
     REFERENCES TipoProjeto (id_tpproj);
   
+ALTER TABLE Projeto ADD ordem int; 
+ 
+ALTER TABLE TipoAtributo RENAME column nom_atributo TO tipo_atributo;
 
- alter table Projeto add ordem int; <br>
- alter table TipoAtributo rename column nom_atributo to tipo_atributo; <br>
- alter table TipoAtributo rename to Atributo; <br>
-
+ALTER TABLE TipoAtributo RENAME TO Atributo; 
 
 ### 9	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 insert into Conta(matricula,nome,senha) values ('2019tiimi0038','Aline Santos ','gatinha123');
@@ -231,8 +231,6 @@ insert into ProjetoAtributo(id_projatrib, id_atributo, id_proj) values
 ('PROJATRIB16','ATRIBUTO16','PROJETO1235');
 
 
-
-
 ### 10	TABELAS E PRINCIPAIS CONSULTAS<br>
 
 #### 10.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
@@ -263,27 +261,27 @@ insert into ProjetoAtributo(id_projatrib, id_atributo, id_proj) values
 ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Consultas%20tabelas%20completas/Consulta_Atributo_3.PNG)
 
 #### 10.2 PRINCIPAIS CONSULTAS DO SISTEMA <br>
- select con.matricula"Matrícula",count(pro.id_proj)"Quantidade de Projetos" from Conta con join Projeto pro on(con.matricula=pro.matricula) group by con.matricula; <br>
+select con.matricula"Matrícula",count(pro.id_proj)"Quantidade de Projetos" from Conta con join Projeto pro on(con.matricula=pro.matricula) group by con.matricula; <br>
  
 ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Consulta11.png)
  
- select con.matricula"Matrícula", count(at.id_atributo)"Quantidade de Atributos" from Conta con join Projeto pro 
+select con.matricula"Matrícula", count(at.id_atributo)"Quantidade de Atributos" from Conta con join Projeto pro 
 on(con.matricula = pro.matricula) join ProjetoAtributo proat on(pro.id_proj = proat.id_proj) join Atributo at on(proat.id_atributo = at.id_atributo)
 group by con.matricula; <br>
  
 ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Consulta12.png)
  
- select tppro.nome_tp"Tipo de Projeto", count(at.id_atributo)"Quantidade de Atributos" from Atributo at join ProjetoAtributo proat 
+select tppro.nome_tp"Tipo de Projeto", count(at.id_atributo)"Quantidade de Atributos" from Atributo at join ProjetoAtributo proat 
 on (at.id_atributo=proat.id_atributo) join Projeto pro on (proat.id_proj=pro.id_proj) join TipoProjeto tppro on(pro.id_tpproj=tppro.id_tpproj) group by tppro.nome_tp; <br>
  
 ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Consulta13.png)
  
- select tp.nome_tp"Tipo de projeto", count(proj.id_proj) as "Quantidade de Projetos" from TipoProjeto tp join Projeto proj on(tp.id_tpproj = proj.id_tpproj)
- group by tp.id_tpproj order by tp.id_tpproj; <br>
+select tp.nome_tp"Tipo de projeto", count(proj.id_proj) as "Quantidade de Projetos" from TipoProjeto tp join Projeto proj on(tp.id_tpproj = proj.id_tpproj)
+group by tp.id_tpproj order by tp.id_tpproj; <br>
  
 ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Consulta14.png)
  
- select tp.nome_tp"Tipo de Projeto", count(at.id_atributo)"Quantidade de Fotos"
+select tp.nome_tp"Tipo de Projeto", count(at.id_atributo)"Quantidade de Fotos"
 from Atributo at join ProjetoAtributo projatrib on (at.id_atributo=projatrib.id_atributo) join Projeto proj on(projatrib.id_proj=proj.id_proj) 
 join TipoProjeto tp on (proj.id_tpproj=tp.id_tpproj) where at.tipo_atributo='Foto da planta' or at.tipo_atributo='Foto da estrutura Quimica' 
 group by tp.nome_tp; <br>
@@ -313,4 +311,4 @@ group by tp.nome_tp; <br>
  
  #### 12.1 Slides: https://docs.google.com/presentation/d/1J5q3_IFNHZ1oFranBZIqQj9kgW1IYTXld40ILd6ItOA/edit?usp=sharing <br>
  
- #### 12.2 Apresentação em vídeo: https://youtu.be/opwMuvvlfog <br>
+ #### 12.2 Apresentação em vídeo formato pecha kucha: https://youtu.be/opwMuvvlfog 
