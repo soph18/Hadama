@@ -16,17 +16,17 @@ Uma vez logado, para criar um novo projeto, que é um conjunto de informações 
 Quando existem um ou mais projetos já criados, é possível alterar estes. Dentre as opções de alteração estão: deletar, editar e renomear. Depois de sempre salvar o que é que esteja fazendo, seja criando um projeto ou alterando algo, estarão salvos e colocados na página inicial do site do sistema para pessoas de fora terem acesso aos registros.
 
 ## 3. RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
-![alt text](https://raw.githubusercontent.com/jessicaduque/Hadama/main/Imagens/Prototipo/Home_principal.png)
-![alt text](https://raw.githubusercontent.com/jessicaduque/Hadama/main/Imagens/Prototipo/Entrar_e_registrar.png)
-![alt text](https://raw.githubusercontent.com/jessicaduque/Hadama/main/Imagens/Prototipo/Home_visualizacao.png)
-![alt text](https://raw.githubusercontent.com/jessicaduque/Hadama/main/Imagens/Prototipo/Conheca_o_projeto.png)
-![alt text](https://raw.githubusercontent.com/jessicaduque/Hadama/main/Imagens/Prototipo/Sobre_nos.png)
-![alt text](https://raw.githubusercontent.com/jessicaduque/Hadama/main/Imagens/Prototipo/Home_edicao.png)
-![alt text](https://raw.githubusercontent.com/jessicaduque/Hadama/main/Imagens/Prototipo/Escolha_projeto.png)
-![alt text](https://raw.githubusercontent.com/jessicaduque/Hadama/main/Imagens/Prototipo/Estrutura_quimica.png)
-![alt text](https://raw.githubusercontent.com/jessicaduque/Hadama/main/Imagens/Prototipo/Modo_de_plantio.png)
-![alt text](https://raw.githubusercontent.com/jessicaduque/Hadama/main/Imagens/Prototipo/Receitas.png)
-![alt text](https://raw.githubusercontent.com/jessicaduque/Hadama/main/Imagens/Prototipo/Imagens_e_infos_extras.png)
+![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Prototipo/Home_principal.png)
+![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Prototipo/Entrar_e_registrar.png)
+![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Prototipo/Home_visualizacao.png)
+![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Prototipo/Conheca_o_projeto.png)
+![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Prototipo/Sobre_nos.png)
+![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Prototipo/Home_edicao.png)
+![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Prototipo/Escolha_projeto.png)
+![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Prototipo/Estrutura_quimica.png)
+![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Prototipo/Modo_de_plantio.png)
+![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Prototipo/Receitas.png)
+![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Prototipo/Imagens_e_infos_extras.png)
 
 
 ### 3.1 Quais perguntas podem ser respondidas com o sistema proposto? <br>
