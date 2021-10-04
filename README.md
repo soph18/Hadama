@@ -16,18 +16,17 @@ Uma vez logado, para criar um novo projeto, que é um conjunto de informações 
 Quando existem um ou mais projetos já criados, é possível alterar estes. Dentre as opções de alteração estão: deletar, editar e renomear. Depois de sempre salvar o que é que esteja fazendo, seja criando um projeto ou alterando algo, estarão salvos e colocados na página inicial do site do sistema para pessoas de fora terem acesso aos registros.
 
 ## 3. RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
-
-![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/3f6c0462f643996136c8b5bca81f4fc9accdff07/Conhe%C3%A7a%20o%20Projeto.png)
-![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/soph18-patch-1/Entrar%26Registrar.png)
-![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/soph18-patch-1/Escolha%20Projeto.png)
-![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/soph18-patch-1/Estrutura%20Qu%C3%ADmica.png)
-![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/soph18-patch-1/Home%20Edi%C3%A7%C3%A3o.png)
-![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/soph18-patch-1/Home%20Principal.png)
-![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/soph18-patch-1/Home%20Visualiza%C3%A7%C3%A3o.png)
-![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/soph18-patch-1/Imagens%20e%20Infos.%20Extras.png)
-![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/soph18-patch-1/Modo%20de%20Plantio.png)
-![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/soph18-patch-1/Receitas.png)
-![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/soph18-patch-1/Sobre%20N%C3%B3s.png)
+![alt text](https://raw.githubusercontent.com/jessicaduque/Hadama/main/Imagens/Prototipo/Home_principal.png)
+![alt text](https://raw.githubusercontent.com/jessicaduque/Hadama/main/Imagens/Prototipo/Entrar_e_registrar.png)
+![alt text](https://raw.githubusercontent.com/jessicaduque/Hadama/main/Imagens/Prototipo/Home_visualizacao.png)
+![alt text](https://raw.githubusercontent.com/jessicaduque/Hadama/main/Imagens/Prototipo/Conheca_o_projeto.png)
+![alt text](https://raw.githubusercontent.com/jessicaduque/Hadama/main/Imagens/Prototipo/Sobre_nos.png)
+![alt text](https://raw.githubusercontent.com/jessicaduque/Hadama/main/Imagens/Prototipo/Home_edicao.png)
+![alt text](https://raw.githubusercontent.com/jessicaduque/Hadama/main/Imagens/Prototipo/Escolha_projeto.png)
+![alt text](https://raw.githubusercontent.com/jessicaduque/Hadama/main/Imagens/Prototipo/Estrutura_quimica.png)
+![alt text](https://raw.githubusercontent.com/jessicaduque/Hadama/main/Imagens/Prototipo/Modo_de_plantio.png)
+![alt text](https://raw.githubusercontent.com/jessicaduque/Hadama/main/Imagens/Prototipo/Receitas.png)
+![alt text](https://raw.githubusercontent.com/jessicaduque/Hadama/main/Imagens/Prototipo/Imagens_e_infos_extras.png)
 
 
 ### 3.1 Quais perguntas podem ser respondidas com o sistema proposto? <br>
