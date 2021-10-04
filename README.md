@@ -43,7 +43,7 @@ Link: https://docs.google.com/spreadsheets/d/1GGuo_0yfd_p8xazYE0qZfNkxYcsa1S6iSd
 
  ## 5. PMC <br>
 
-![alt text](https://raw.githubusercontent.com/soph18/template_projeto_integrador/main/WhatsApp%20Image%202021-07-27%20at%203.39.06%20PM.jpeg)
+![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Outros/PMC.jpg)
  
 ## 6. MODELO CONCEITUAL<br>
  
