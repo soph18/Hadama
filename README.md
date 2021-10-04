@@ -294,15 +294,15 @@ group by tp.nome_tp; <br>
  ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Integra%C3%A7%C3%A3o2.png)
  
  ### 11.2	Desenvolvimento de gráficos/relatórios pertinentes, juntamente com demais solicitações feitas pelo professor
- ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Relat%C3%B3rios/Relat%C3%B3rio1_1.PNG)
- ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Relat%C3%B3rios/Relat%C3%B3rio1_2.PNG)
- ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Relat%C3%B3rios/Relat%C3%B3rio1_3.PNG)
- ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Relat%C3%B3rios/Relat%C3%B3rio2_1.jpeg)
- ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Relat%C3%B3rios/Relat%C3%B3rio2_2.jpeg)
- ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Relat%C3%B3rios/Relat%C3%B3rio2_3.jpeg)
- ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Relat%C3%B3rios/Relat%C3%B3rio3.jpeg)
- ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Relat%C3%B3rios/Relat%C3%B3rio4.jpeg)
- ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Relat%C3%B3rios/Relat%C3%B3rio5.jpeg)
+ ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Relatorios/Relatorios1_1.PNG)
+ ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Relatorios/Relatorios1_2.PNG)
+ ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Relatorios/Relatorios1_3.PNG)
+ ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Relatorios/Relatorios2_1.jpeg)
+ ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Relatorios/Relatorios2_2.jpeg)
+ ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Relatorios/Relatorios2_3.jpeg)
+ ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Relatorios/Relatorios3.jpeg)
+ ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Relatorios/Relatorios4.jpeg)
+ ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Relatorios/Relatorios5.jpeg)
  
  
  ## 12. SLIDES E APRESENTAÇÃO EM VÍDEO <br>
