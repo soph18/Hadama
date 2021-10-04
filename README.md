@@ -234,29 +234,29 @@ insert into ProjetoAtributo(id_projatrib, id_atributo, id_proj) values
 ### 10.1	Consultas das tabelas com todos os dados inseridos <br>
  select * from Conta;<br>
  
-![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Consultas%20tabelas%20completas/Consulta_Conta.PNG)
+![alt text](https://raw.githubusercontent.com/jessicaduque/Hadama/main/Imagens/Consultas_tabelas_completas/Consulta_Conta.PNG)
  
  select * from TipoProjeto;<br>
  
-![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Consultas%20tabelas%20completas/Consulta_TipoProjeto.PNG)
+![alt text](https://raw.githubusercontent.com/jessicaduque/Hadama/main/Imagens/Consultas_tabelas_completas/Consulta_TipoProjeto.PNG)
  
  select * from Projeto;<br>
  
-![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Consultas%20tabelas%20completas/Consulta_Projeto.PNG)
+![alt text](https://raw.githubusercontent.com/jessicaduque/Hadama/main/Imagens/Consultas_tabelas_completas/Consulta_Projeto.PNG)
  
  select * from ProjetoAtributo;<br>
  
-![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Consultas%20tabelas%20completas/Consulta_ProjetoAtributo_1.PNG)
+![alt text](https://raw.githubusercontent.com/jessicaduque/Hadama/main/Imagens/Consultas_tabelas_completas/Consulta_ProjetoAtributo_1.PNG)
  
-![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Consultas%20tabelas%20completas/Consulta_ProjetoAtributo_2.PNG)
+![alt text](https://raw.githubusercontent.com/jessicaduque/Hadama/main/Imagens/Consultas_tabelas_completas/Consulta_ProjetoAtributo_2.PNG)
  
  select * from Atributo;<br>
  
-![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Consultas%20tabelas%20completas/Consulta_Atributo_1.PNG)
+![alt text](https://raw.githubusercontent.com/jessicaduque/Hadama/main/Imagens/Consultas_tabelas_completas/Consulta_Atributo_1.PNG)
  
-![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Consultas%20tabelas%20completas/Consulta_Atributo_2.PNG)
+![alt text](https://raw.githubusercontent.com/jessicaduque/Hadama/main/Imagens/Consultas_tabelas_completas/Consulta_Atributo_2.PNG)
  
-![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Consultas%20tabelas%20completas/Consulta_Atributo_3.PNG)
+![alt text](https://raw.githubusercontent.com/jessicaduque/Hadama/main/Imagens/Consultas_tabelas_completas/Consulta_Atributo_3.PNG)
 
 ### 10.2 Principais consultas do sistema <br>
 select con.matricula"Matrícula",count(pro.id_proj)"Quantidade de Projetos" from Conta con join Projeto pro on(con.matricula=pro.matricula) group by con.matricula; <br>
@@ -294,15 +294,15 @@ group by tp.nome_tp; <br>
  ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Integra%C3%A7%C3%A3o2.png)
  
  ### 11.2	Desenvolvimento de gráficos/relatórios pertinentes, juntamente com demais solicitações feitas pelo professor
- ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Relat%C3%B3rios/Relat%C3%B3rio1_1.PNG)
- ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Relat%C3%B3rios/Relat%C3%B3rio1_2.PNG)
- ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Relat%C3%B3rios/Relat%C3%B3rio1_3.PNG)
- ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Relat%C3%B3rios/Relat%C3%B3rio2_1.jpeg)
- ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Relat%C3%B3rios/Relat%C3%B3rio2_2.jpeg)
- ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Relat%C3%B3rios/Relat%C3%B3rio2_3.jpeg)
- ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Relat%C3%B3rios/Relat%C3%B3rio3.jpeg)
- ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Relat%C3%B3rios/Relat%C3%B3rio4.jpeg)
- ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Relat%C3%B3rios/Relat%C3%B3rio5.jpeg)
+ ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Relatorios/Relatorios1_1.PNG)
+ ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Relatorios/Relatorios1_2.PNG)
+ ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Relatorios/Relatorios1_3.PNG)
+ ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Relatorios/Relatorios2_1.jpeg)
+ ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Relatorios/Relatorios2_2.jpeg)
+ ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Relatorios/Relatorios2_3.jpeg)
+ ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Relatorios/Relatorios3.jpeg)
+ ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Relatorios/Relatorios4.jpeg)
+ ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Relatorios/Relatorios5.jpeg)
  
  
  ## 12. SLIDES E APRESENTAÇÃO EM VÍDEO <br>
