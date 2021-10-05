@@ -289,8 +289,8 @@ group by tp.nome_tp; <br>
  ## 11. GRÁFICOS, RELATÓRIOS, INTEGRAÇÃO COM LINGUAGEM DE PROGRAMAÇÃO E OUTRAS SOLICITAÇÕES <br>
  
  ### 11.1	Integração com Linguagem de programação <br>
- ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Integra%C3%A7%C3%A3o1.jpg)
- ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Integra%C3%A7%C3%A3o2.png)
+ ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Relatorios/Integracao1.jpg)
+ ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Relatorios/Integracao2.jpg)
  
  ### 11.2	Desenvolvimento de gráficos/relatórios pertinentes, juntamente com demais solicitações feitas pelo professor
  ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Relatorios/Relatorio1_1.PNG)
