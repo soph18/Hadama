@@ -266,7 +266,7 @@ select con.matricula"Matrícula", count(at.id_atributo)"Quantidade de Atributos"
 on(con.matricula = pro.matricula) join ProjetoAtributo proat on(pro.id_proj = proat.id_proj) join Atributo at on(proat.id_atributo = at.id_atributo)
 group by con.matricula; <br>
  
-![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Consultas_principais/Consult2.png)
+![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Consultas_principais/2.png)
  
 select tppro.nome_tp"Tipo de Projeto", count(at.id_atributo)"Quantidade de Atributos" from Atributo at join ProjetoAtributo proat 
 on (at.id_atributo=proat.id_atributo) join Projeto pro on (proat.id_proj=pro.id_proj) join TipoProjeto tppro on(pro.id_tpproj=tppro.id_tpproj) group by tppro.nome_tp; <br>
@@ -290,7 +290,7 @@ group by tp.nome_tp; <br>
  
  ### 11.1	Integração com Linguagem de programação <br>
  ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Relatorios/Integracao1.jpg)
- ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Relatorios/Integracao2.jpg)
+ ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Relatorios/Integracao2.png)
  
  ### 11.2	Desenvolvimento de gráficos/relatórios pertinentes, juntamente com demais solicitações feitas pelo professor
  ![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Imagens/Relatorios/Relatorio1_1.PNG)
