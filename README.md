@@ -260,30 +260,30 @@ insert into ProjetoAtributo(id_projatrib, id_atributo, id_proj) values
 ### 10.2 Principais consultas do sistema <br>
 select con.matricula"Matrícula",count(pro.id_proj)"Quantidade de Projetos" from Conta con join Projeto pro on(con.matricula=pro.matricula) group by con.matricula; <br>
  
-![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Consulta11.png)
+![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Consultas_principais/Consulta1.png)
  
 select con.matricula"Matrícula", count(at.id_atributo)"Quantidade de Atributos" from Conta con join Projeto pro 
 on(con.matricula = pro.matricula) join ProjetoAtributo proat on(pro.id_proj = proat.id_proj) join Atributo at on(proat.id_atributo = at.id_atributo)
 group by con.matricula; <br>
  
-![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Consulta12.png)
+![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Consultas_principais/Consulta2.png)
  
 select tppro.nome_tp"Tipo de Projeto", count(at.id_atributo)"Quantidade de Atributos" from Atributo at join ProjetoAtributo proat 
 on (at.id_atributo=proat.id_atributo) join Projeto pro on (proat.id_proj=pro.id_proj) join TipoProjeto tppro on(pro.id_tpproj=tppro.id_tpproj) group by tppro.nome_tp; <br>
  
-![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Consulta13.png)
+![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Consultas_principais/Consulta3.png)
  
 select tp.nome_tp"Tipo de projeto", count(proj.id_proj) as "Quantidade de Projetos" from TipoProjeto tp join Projeto proj on(tp.id_tpproj = proj.id_tpproj)
 group by tp.id_tpproj order by tp.id_tpproj; <br>
  
-![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Consulta14.png)
+![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Consultas_principais/Consulta4.png)
  
 select tp.nome_tp"Tipo de Projeto", count(at.id_atributo)"Quantidade de Fotos"
 from Atributo at join ProjetoAtributo projatrib on (at.id_atributo=projatrib.id_atributo) join Projeto proj on(projatrib.id_proj=proj.id_proj) 
 join TipoProjeto tp on (proj.id_tpproj=tp.id_tpproj) where at.tipo_atributo='Foto da planta' or at.tipo_atributo='Foto da estrutura Quimica' 
 group by tp.nome_tp; <br>
 
-![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Consulta15.png)
+![alt text](https://raw.githubusercontent.com/soph18/Hadama/main/Consultas_principais/Consulta5.png)
 
  
  ## 11. GRÁFICOS, RELATÓRIOS, INTEGRAÇÃO COM LINGUAGEM DE PROGRAMAÇÃO E OUTRAS SOLICITAÇÕES <br>
